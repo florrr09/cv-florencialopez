@@ -1,0 +1,38 @@
+*¨{
+  box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+.grip-container > * {
+  box-sizing: 1px 1px 7px 0px rgb(57,55,55);
+  text-align: center;
+}
+.header{
+  grid-area: main;
+  background: linear-gradient(to right, #13747d, #fcf7c5 );
+}
+.footer{
+  grid-area: footer;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  clear: both;
+  border-radius: 0 0 10px 10px;
+}
+@media (max-width: 600px){ 
+  .grip-container{
+    display: grid;
+    gap: 5px;
+    grid-template:
+    "header  header"  auto
+    "main    main"    auto
+    "footer  footer"  auto  /
+    200px auto;
+  }
+}

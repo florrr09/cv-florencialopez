@@ -1,3 +1,24 @@
+@media (max-width:1440px){
+  table    
+  width: 100%;
+  }
+  td{
+    border: solid 2px #333;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+  }
+  th{
+    font-size: 32px;
+    padding: 10px;
+    color: beige;
+    text-shadow: 2px 1px 1px #333;
+    border: solid 2px #333;
+    border-radius: 10px;
+  }
+
+
 @media (max-width:1000px){
   table    
   width: 100%;
